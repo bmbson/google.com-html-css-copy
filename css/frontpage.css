@@ -1,0 +1,132 @@
+:root {
+    /*main color */
+    --main-color: #202124;
+
+    --secondary-color: #171717;
+}
+
+body {
+    background-color: var(--main-color);
+    color: lightgray
+}
+
+#topLeftNav li {
+    display: inline;
+    font-size: 12px;
+}
+
+#topRightNav li {
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+#topRightNav {
+    margin-left: auto;
+}
+
+#inlogButton {
+    height: 36px;
+    width: 96px;
+    align-self: center;
+    border: none;
+    background-color: #89c4f0;
+    border-color: #89c4f0;
+    border-radius: 5px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+main {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+}
+#logoWrapper {
+    text-align: center;
+}
+
+#searchFieldWrapper {
+    /* Dit moet nog gedaan worden */
+    text-align: center;
+}
+
+#searchField {
+    width: 584px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#buttonsWrapper {
+    display: flex;
+    justify-content: center;
+}
+
+#searchFieldWrapper {
+    margin: 0 auto;
+}
+
+#lowerText {
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--secondary-color);
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+footer li {
+    margin-left: 10px;
+}
+
+#footerOne {
+    font-size: 13px;
+}
+
+#footerTwo {
+    font-size: 13px;
+    text-align: center;
+}
+
+#footerThree {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    font-size: 13px;
+}  
+
+#bottomLeftNav li {
+    display: inline;
+}
+
+#bottomRightNav li {
+    display: inline;
+}
+
+.blackButton {
+    background-color: #303134;
+    border: none;
+    color: #e8eaed;
+    width: 145px;
+    height: 36px;
+    margin: 4px;
+}   
+
+#searchField {
+    border-radius: 25px;
+    width: 572px;
+    height: 37px;
+    background-color: var(--main-color);
+    border-color: #5f6368;
+}
+
+
