@@ -7,7 +7,7 @@
 
 body {
     background-color: var(--main-color);
-    color: lightgray
+    color: lightgray;
 }
 
 #topLeftNav li {
@@ -36,6 +36,10 @@ body {
     border-radius: 5px;
 }
 
+#inlogButton:hover {
+    background-color: white;
+}
+
 nav {
     display: flex;
     justify-content: space-around;
@@ -47,6 +51,7 @@ main {
     top: 40%;
     transform: translate(-50%, -50%);
 }
+
 #logoWrapper {
     text-align: center;
 }
@@ -62,6 +67,13 @@ main {
     margin-top: 20px;
 }
 
+#searchField:focus {
+    /* Removes default blue outline */
+
+    outline: none;
+
+}
+
 #buttonsWrapper {
     display: flex;
     justify-content: center;
@@ -73,7 +85,19 @@ main {
 
 #lowerText {
     text-align: center;
+    font-size: 12px;
 }
+
+#lowerText a {
+    text-decoration: none;
+    color: #5f78a2;
+}
+
+#lowerText a:hover {
+    text-decoration: underline;
+    color: #5f78a2;
+}
+
 
 footer {
     display: flex;
@@ -88,8 +112,13 @@ footer li {
     margin-left: 10px;
 }
 
-#footerOne {
+#footerOne p {
     font-size: 13px;
+    margin-left: 20px;
+}
+
+#footerOne hr {
+    color: var(--main-color)
 }
 
 #footerTwo {
@@ -102,7 +131,7 @@ footer li {
     justify-content: space-around;
     flex-direction: row;
     font-size: 13px;
-}  
+}
 
 #bottomLeftNav li {
     display: inline;
@@ -114,19 +143,29 @@ footer li {
 
 .blackButton {
     background-color: #303134;
-    border: none;
+    border-color: var(--main-color);
     color: #e8eaed;
     width: 145px;
     height: 36px;
     margin: 4px;
-}   
+    border-radius: 5px;
+    border-width: 1px;
+}
 
 #searchField {
     border-radius: 25px;
     width: 572px;
     height: 37px;
     background-color: var(--main-color);
-    border-color: #5f6368;
+    border-color: #303134;
+
 }
 
+#searchField:hover {
+    background-color: #303134;
+}
 
+.blackButton:hover {
+    border-color: grey;
+
+}
