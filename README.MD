@@ -1,2 +1,2 @@
-A copy of google using no tutorial.
+A copy of Google html and css using no tutorial.
 
